@@ -1,6 +1,6 @@
 variable "location" {
   type    = string
-  default = "westeurope"
+  default = "Central US"
 }
 variable "prefix" {
   type    = string
@@ -9,5 +9,5 @@ variable "prefix" {
 
 variable "ssh-source-address" {
   type    = string
-  default = "*"
+  default = "23.120.107.163/32"
 }
